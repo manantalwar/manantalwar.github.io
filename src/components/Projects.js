@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../data";
+import { projects } from "../content/projects_list";
 
 export default function Projects() {
   return (
@@ -25,25 +25,25 @@ export default function Projects() {
                     <div>
                       <img src={proj.image} className="h-32 rounded-lg w-full object-cover" />
                     </div>
-                    <div class="font-semibold text-xl mb-2 ml-2 text-yellow-500 py-2">{proj.title}</div>
+                    <div class="font-semibold text-xl mb-2 ml-2 text-white py-2">{proj.title}</div>
                     <div class="flex m-auto pb-2">
                       {proj.buttons.map((lst) => (
                         <a href={lst['link']}>
-                          <button class="transform mouse-pointer bg-red-500 text-sm text-white mx-2 py-1 px-2 font-semibold rounded hover:bg-gray-700 hover:scale-90 focus:bg-gray-700  focus:outline-none">
+                          <button class="transform mouse-pointer bg-yellow-500 text-sm text-white mx-2 py-1 px-2 font-semibold rounded hover:bg-gray-700 hover:scale-90 focus:bg-gray-700  focus:outline-none">
                             {lst['name']}
                           </button>
                         </a>
                       ))}
                     </div>
                     <div class="my-2 mx-2 mr-5">
-                      <p class="text-gray-400 text-sm text-justify">
+                      <p class="text-gray-300 text-sm text-justify">
                         {proj.description}
                       </p>
                     </div>
                     <div className="flex flex-wrap">
                       {proj.skills.map((cur) => (
                       <div className="flex flex-wrap">
-                        <div className="p-1"><span class="transform transition-all duration-150 inline-block bg-yellow-500 bg-opacity-100 rounded px-1 py-1  text-xs font-thin text-black  hover:shadow-sm  hover:scale-105">{cur}</span></div>
+                        <div className="p-1"><span class="transform transition-all duration-150 inline-block bg-transparent rounded px-1 py-1  text-xs font-thin text-white border hover:scale-105">{cur}</span></div>
                       </div>
                       ))}
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { skills } from "../data";
+import { programming, frameworks, technologies, competencies } from "../content/skills_list";
 
 export default function Skills() {
   return (
@@ -13,10 +13,10 @@ export default function Skills() {
           </div>
         </div>
         <div class="text-center mb-5">
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Programming Languages</p>
+          <p class="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-xl font-bold">Programming Languages</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
+          {programming.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/4 w-full rounded hover:scale-105 duration-150">
               <div className="bg-yellow-500 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
@@ -27,10 +27,10 @@ export default function Skills() {
           ))}
         </div>
         <div class="text-center mb-5 mt-5">
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Frameworks</p>
+          <p class="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-xl font-bold">Frameworks</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
+          {frameworks.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/4 w-full rounded hover:scale-105 duration-150">
               <div className="bg-indigo-500 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
@@ -41,10 +41,10 @@ export default function Skills() {
           ))}
         </div>
         <div class="text-center mb-5 mt-5">
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Technologies</p>
+          <p class="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-xl font-bold">Technologies</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
+          {technologies.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/4 w-full rounded hover:scale-105 duration-150">
               <div className="bg-green-500 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
@@ -55,10 +55,10 @@ export default function Skills() {
           ))}
         </div>
         <div class="text-center mb-5 mt-5">
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Competencies</p>
+          <p class="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-xl font-bold">Competencies</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
+          {competencies.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/4 w-full rounded hover:scale-105 duration-150">
               <div className="bg-red-500 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">

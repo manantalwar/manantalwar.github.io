@@ -1,4 +1,4 @@
-import { experiences } from "../experiences_info";
+import { experiences } from "../content/experiences_info";
 import React from "react";
 
 export default function Experiences(){
@@ -21,14 +21,14 @@ export default function Experiences(){
                 </div>*/}
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                             <h1 className="text-white text-2xl title-font font-bold mb-2">{exp.title}</h1>
-                            <h1 className="text-yellow-500 text-xl title-font font-bold mb-2">{exp.company}</h1>
-                            <h1 className="text-red-500 text-l title-font font-bold mb-2">{exp.duration}</h1>
-                            <p className="leading-relaxed text-base list-disc text-justify">
+                            <h1 className="text-gray-400 text-xl title-font font-bold mb-2">{exp.company}</h1>
+                            <h1 className="text-yellow-500 text-l title-font font-bold mb-2">{exp.duration}</h1>
+                            <p className="leading-relaxed text-base list-disc space-y-2 text-gray-300">
                                 {exp.description.map((lst) => (
                                     <li>{lst}</li>
                                 ))}
                             </p>
-                            <div className="py-4">
+                            <div className="pt-4">
                                 {exp.skills.map((skill) => (
                                     <div className=" inline-block mr-2" >
                                         <div className="flex  pr-2 h-full items-center">
@@ -42,11 +42,6 @@ export default function Experiences(){
                                     </div>
                                 ))}
                             </div>
-                            <a className="mt-3 text-indigo-500 inline-flex items-center bg-white rounded p-2">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -55,3 +50,4 @@ export default function Experiences(){
         </section>
     );
 }
+

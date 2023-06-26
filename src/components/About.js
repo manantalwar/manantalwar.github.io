@@ -5,8 +5,8 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex md:flex-row flex-col pt-10 pr-10">
         <div className="flex flex-wrap">
-            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex m-auto hover:scale-105 duration-150 text-white hover:text-black">
-                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6 hover:bg-red-500">
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex m-auto hover:scale-105 duration-150 text-white">
+                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
                   <div class="top mb-2 flex">
                     <div class="h-3 w-3 bg-red-500 rounded-full"></div>
                     <div class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></div>
@@ -26,12 +26,12 @@ export default function About() {
                     </Player>
                   </div>
                   <div class="flex-grow ">
-                    <p class="leading-relaxed text-sm text-justify">Donner du goût ? de la couleur aux applications, je le fais afin de rendre vos sites attrayants ?. Avant de devenir webdesigner, depuis tout petit j'étais déjà familier à la couleur et du dessin.</p>
+                    <p class="leading-relaxed text-sm text-justify text-gray-300"> I am driven by my passion for technology and my desire to create innovative solutions that have a positive impact on people's lives. From a young age, I have been fascinated by the potential of computers and their ability to transform ideas into reality.</p>
                   </div>
                 </div>
             </div>
-            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col text-white hover:scale-105 duration-150 hover:text-black">
-                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6 flex-1 hover:bg-yellow-500">
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col text-white hover:scale-105 duration-150">
+                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6 flex-1">
                   <div class="top mb-2 flex">
                     <div class="h-3 w-3 bg-red-500 rounded-full"></div>
                     <div class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></div>
@@ -51,14 +51,14 @@ export default function About() {
                     </Player>
                   </div>
                   <div class="flex-grow">
-                    <p class="leading-relaxed text-sm text-justify">
-                    Donner du goût ? de la couleur aux applications, je le fais afin de rendre vos sites attrayants ?. Avant de devenir webdesigner, depuis tout petit j'étais déjà familier à la couleur et du dessin. 
+                    <p class="leading-relaxed text-sm text-justify text-gray-300">
+                    I am captivated by the power of data and its ability to unveil valuable insights and drive informed decision-making. With a passion for problem-solving, I thrive on the challenge of extracting meaningful patterns from complex datasets. 
                     </p>
                   </div>
                 </div>
             </div>
-            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col hover:scale-105 duration-150 text-white hover:text-black">
-                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6 flex-1 hover:bg-green-500">
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col hover:scale-105 duration-150 text-white">
+                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6 flex-1">
                   <div class="top mb-2 flex">
                     <div class="h-3 w-3 bg-red-500 rounded-full"></div>
                     <div class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></div>
@@ -78,8 +78,8 @@ export default function About() {
                     </Player>
                   </div>
                   <div class="flex-grow">
-                    <p class="leading-relaxed text-sm text-justify">
-                    Donner du goût ? de la couleur aux applications, je le fais afin de rendre vos sites attrayants ?. Avant de devenir webdesigner, depuis tout petit j'étais déjà familier à la couleur et du dessin. 
+                    <p class="leading-relaxed text-sm text-justify text-gray-300">
+                    I excel at understanding user needs, driving innovation, and delivering exceptional products. With a strategic mindset and a passion for customer-centric design, I lead cross-functional teams to deliver impactful solutions and drive business growth. 
                     </p>
                   </div>
                 </div>

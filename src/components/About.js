@@ -13,7 +13,7 @@ export default function About() {
                     <div class="ml-2 h-3 w-3 bg-green-500 rounded-full"></div>
                   </div>
                   <div className="text-center">
-                    <h2 className="text-xl title-font font-medium mb-3">Software Developer</h2>
+                    <h2 className="text-xl title-font mb-3 font-medium">Software Developer</h2>
                   </div>
                   <div>
                     <Player

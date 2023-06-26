@@ -3,13 +3,13 @@ import { projects } from "../content/projects_list";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font px-10 py-20">
-      <div className="container px-5 py-10 mx-auto">
+    <section id="projects" className="text-gray-300 bg-gray-900 body-font px-10 py-20">
+      <div className="container px-5 mx-auto">
         <div class="text-center">
           <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Projects</h1>
           <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I bring ideas to life.</p>
           <div class="flex mt-6 justify-center">
-            <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+            <div class="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
           </div>
         </div>
         <div class="flex flex-wrap container px-5 py-10 mx-auto text-center lg:px-4">
@@ -22,9 +22,9 @@ export default function Projects() {
                     <div class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></div>
                     <div class="ml-2 h-3 w-3 bg-green-500 rounded-full"></div>
                   </div>
-                    <div>
-                      <img src={proj.image} className="h-32 rounded-lg w-full object-cover" />
-                    </div>
+                  <div>
+                    <img src={require('../img/' + proj.image)} className="h-32 rounded-lg w-full object-cover" />
+                  </div>
                     <div class="font-semibold text-xl mb-2 ml-2 text-white py-2">{proj.title}</div>
                     <div class="flex m-auto pb-2">
                       {proj.buttons.map((lst) => (

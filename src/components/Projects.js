@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="container px-5 mx-auto">
         <div class="text-center">
           <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Projects</h1>
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I bring ideas to life.</p>
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I have had the privilege of working on a diverse range of projects that have allowed me to showcase my technical skills, problem-solving abilities, and passion for creating innovative solutions. These projects have not only contributed to my professional growth but have also demonstrated my ability to deliver high-quality software products that meet and exceed client expectations.</p>
           <div class="flex mt-6 justify-center">
             <div class="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
           </div>

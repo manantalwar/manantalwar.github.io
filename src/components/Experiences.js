@@ -7,7 +7,7 @@ export default function Experiences(){
         <section id="experience" className="text-gray-300 bg-gray-900 body-font max-w-6xl mx-auto px-10 py-20">
             <div className="text-center pb-20">
                 <h1 className=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Experience</h1>
-                <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I work!</p>
+                <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">As a highly skilled and passionate software engineer, I have accumulated valuable experience working in various roles within the field. From designing and implementing scalable architectures to troubleshooting complex technical issues, I have demonstrated a strong aptitude for solving intricate problems and delivering robust solutions.</p>
                 <div className="flex mt-6 justify-center">
                     <div className="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
                 </div>

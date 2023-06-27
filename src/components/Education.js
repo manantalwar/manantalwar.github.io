@@ -5,7 +5,7 @@ export default function Education() {
         <section id="education" className="text-gray-300 bg-gray-900 body-font px-10 py-20">
 			<div class="text-center pb-20">
 				<h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Education</h1>
-				<p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I am a student!</p>
+				<p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I possess a solid educational background, which has laid a strong foundation for my career in the highly competitive tech industry. Through a comprehensive curriculum and hands-on practical experience, I have gained the necessary knowledge and skills to excel in software development, system architecture, and problem-solving.</p>
 				<div class="flex mt-6 justify-center">
 					<div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
 				</div>

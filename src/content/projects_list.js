@@ -58,7 +58,11 @@ export const projects = [
           },
           {
               'name': 'Paper',
-              'link': '',
+              'link': 'https://drive.google.com/file/d/1doTy2JNFRIDQtP14QMeb5hletKY6nbdi/view?usp=share_link',
+          }, 
+          {
+            'name': 'Poster',
+            'link': 'https://drive.google.com/file/d/1sI20lPI9UFV9VrEkVyZ0ev8iNsrZy5e3/view?usp=share_link',
           }
       ],
       skills: ['Python', 'PyTorch', 'Jupyter', 'LaTeX'],
@@ -70,7 +74,7 @@ export const projects = [
     buttons: [
       {
         'name': 'Proof of Concept',
-        'link': '',
+        'link': 'https://drive.google.com/file/d/11Y-K2dyqHoB0ZPtV8TphV-NSlu50t3cu/view?usp=share_link',
       },
     ],
     skills: ['Apache Solr', 'GPT', 'HoloAnatomy', 'Microsoft Hololens']
@@ -98,12 +102,8 @@ export const projects = [
             },
             {
                 'name': 'Paper',
-                'link': '',
+                'link': 'https://drive.google.com/file/d/1_dJmo03WNqiZ6FLFWrcey4B1GFNQSY-C/view?usp=share_link',
             },
-            {
-                'name': 'Presentation',
-                'link': '',
-            }
         ],
         skills: ['Python', 'PyTorch', 'Jupyter', 'LaTeX'],
     },
@@ -114,11 +114,11 @@ export const projects = [
       buttons: [
           {
               'name': 'Code',
-              'link': '',
+              'link': 'https://github.com/manantalwar/Indicator-for-CKD',
           },
           {
               'name': 'Paper',
-              'link': '',
+              'link': 'https://drive.google.com/file/d/1Ax7aQLEf2hHWF6n40BjIO2uTQ9C_PiXL/view?usp=share_link',
           },
       ],
       skills: ['Python', 'Jupyter', 'LaTeX'],
@@ -130,7 +130,7 @@ export const projects = [
       buttons: [
           {
               'name': 'Code',
-              'link': '',
+              'link': 'https://github.com/manantalwar/TheGreatEscape',
           },
       ],
       skills: ['Unity', 'C#'],

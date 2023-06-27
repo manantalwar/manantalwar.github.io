@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20c8d1a1.css",
+    "main.js": "/static/js/main.afa92828.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/static/js/787.d1d4a2c2.chunk.js",
+    "static/media/snaml.png": "/static/media/snaml.0b7993f615e99194c871.png",
+    "static/media/ours.png": "/static/media/ours.93be747e9d078c694e43.png",
+    "static/media/lrc.png": "/static/media/lrc.3fb5d04b7f4937ca89b4.png",
+    "static/media/lightning.png": "/static/media/lightning.51fd6c48a8a16ad057a2.png",
+    "static/media/sawhyp.png": "/static/media/sawhyp.ac62e125803fd7f5a641.png",
+    "static/media/escape.png": "/static/media/escape.65306bdf3ae3f18da9ec.png",
+    "static/media/ckd.png": "/static/media/ckd.d5a52536f6c935d9384e.png",
+    "static/media/mrits.png": "/static/media/mrits.f9ddb39a7b5a8c1efa52.png",
+    "static/media/appdanger.png": "/static/media/appdanger.6c762a059b2e01403082.png",
+    "static/media/resume_MananTalwar.pdf": "/static/media/resume_MananTalwar.5e63ea029fe44f62a89b.pdf",
+    "index.html": "/index.html",
+    "main.20c8d1a1.css.map": "/static/css/main.20c8d1a1.css.map",
+    "main.afa92828.js.map": "/static/js/main.afa92828.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/static/js/787.d1d4a2c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c8d1a1.css",
+    "static/js/main.afa92828.js"
+  ]
+}

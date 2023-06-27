@@ -40,10 +40,6 @@ export const projects = [
           'name': 'Affiliation',
           'link': 'https://ds.cs.umass.edu/manan-talwar'
         },
-        {
-            'name': 'Sponsor',
-            'link': 'https://www.rescue-lab.org/our-mission'
-        }
       ],
       skills: ['Python', 'SpaCy', 'PostgreSQL', 'AWS', 'S3', 'Agile']
     },

@@ -4,7 +4,7 @@ import { projects } from "../content/projects_list";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-300 bg-gray-900 body-font px-10 py-20">
-      <div className="container px-5 mx-auto">
+      <div className="container mx-auto">
         <div class="text-center">
           <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Projects</h1>
           <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I have had the privilege of working on a diverse range of projects that have allowed me to showcase my technical skills, problem-solving abilities, and passion for creating innovative solutions. These projects have not only contributed to my professional growth but have also demonstrated my ability to deliver high-quality software products that meet and exceed client expectations.</p>
@@ -12,7 +12,7 @@ export default function Projects() {
             <div class="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
           </div>
         </div>
-        <div class="flex flex-wrap container px-5 py-10 mx-auto text-center lg:px-4">
+        <div class="flex flex-wrap container mx-auto text-center lg:px-4">
           {projects.map((proj) => (
               <div class="md:w-1/2 lg:w-1/3 py-4 px-4 transform hover:scale-105 duration-150" >
                 <div class="relative m-auto">
@@ -26,7 +26,7 @@ export default function Projects() {
                     <img src={require('../img/' + proj.image)} className="h-32 rounded-lg w-full object-cover" />
                   </div>
                     <div class="font-semibold text-xl mb-2 ml-2 text-white py-2">{proj.title}</div>
-                    <div class="flex m-auto pb-2">
+                    <div class="flex m-auto pb-2 flex-wrap">
                       {proj.buttons.map((lst) => (
                         <a href={lst['link']}>
                           <button class="transform mouse-pointer bg-yellow-500 text-sm text-white mx-2 py-1 px-2 font-semibold rounded hover:bg-gray-700 hover:scale-90 focus:bg-gray-700  focus:outline-none">

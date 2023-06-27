@@ -30,7 +30,7 @@ export default function Experiences(){
                             <h1 className="text-white text-2xl title-font font-bold mb-2">{exp.title}</h1>
                             <h1 className="text-gray-300 text-xl title-font font-bold mb-2">{exp.company}</h1>
                             <h1 className="text-gray-400 text-m title-font font-bold mb-2">{exp.duration}</h1>
-                            <p className="leading-relaxed text-base list-disc space-y-2 text-gray-300">
+                            <p className="leading-relaxed text-base list-disc space-y-2 text-gray-300 text-left">
                                 {exp.description.map((lst) => (
                                     <li>{lst}</li>
                                 ))}
@@ -38,7 +38,7 @@ export default function Experiences(){
                             <div className="pt-4">
                                 {exp.skills.map((skill) => (
                                     <div className=" inline-block mr-2" >
-                                        <div className="flex  pr-2 h-full items-center">
+                                        <div className="flex pr-2 h-full">
                                             <svg className="text-green-500 w-6 h-6 mr-1"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  
                                                 <path stroke="none" d="M0 0h24v24H0z"/>  
                                                 <circle cx="12" cy="12" r="9" />  

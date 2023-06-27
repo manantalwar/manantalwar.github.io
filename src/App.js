@@ -8,8 +8,14 @@ import Experiences from "./components/Experiences";
 import Education from './components/Education';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import React, { useEffect} from "react";
 
 export default function App() {
+
+  useEffect(() => {
+    document.title = "Manan Talwar";  
+  }, []);
+
   return (
     <main className='text-gray-400 body-font bg-gray-900'>
       <Navbar />
